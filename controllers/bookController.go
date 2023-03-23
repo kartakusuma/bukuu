@@ -6,3 +6,5 @@ type Book struct {
 	Author      string `json:"author"`
 	Description string `json:"description"`
 }
+
+var BookDatas = []Book{}
